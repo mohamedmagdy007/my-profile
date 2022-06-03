@@ -6,11 +6,11 @@ let skills = document.querySelectorAll(".iconSkills");
 
 let divsArray = Array.from(divs);
 let themeToggler = document.querySelector(".theme-toggler");
-let typed = new Typed(".name", {
-  strings: ["Mohamed Magdy"],
-  typeSpeed: 30,
-  loop: false,
-});
+// let typed = new Typed(".name", {
+//   strings: ["Mohamed Magdy"],
+//   typeSpeed: 30,
+//   loop: false,
+// });
 tabsArray.forEach((ele) => {
   ele.addEventListener("click", function (e) {
     tabsArray.forEach((ele) => {
@@ -53,3 +53,30 @@ themeToggler.addEventListener("click", (e) => {
 //   strings: ["Mohamed Magdy"],
 //   typeSpeed: 30,
 // });
+(async function () {
+  const data = await fetch("js/data.json");
+  const { home } = await data.json();
+  console.log(home);
+  // homeContent
+  (async function () {
+    const html = `<div class="col-12 col-lg-6 home">
+   <p>${home.fistWord}</p>
+   <p><span class="name"></span>&nbsp;</p>
+   <p>${home.jobtitle}</p>
+   <p>
+    ${home.description}
+   </p>
+   <a href="pdf/mohamed-magdy-CV.pdf" class="btn-cv" download>
+     ${home.download} <i class="fa-solid fa-cloud-arrow-down"></i>
+   </a>
+  </div>`;
+    document
+      .querySelector(".pagehome .row")
+      .insertAdjacentHTML("afterbegin", html);
+    let typed = new Typed(".name", {
+      strings: ["Mohamed Magdy"],
+      typeSpeed: 30,
+      loop: false,
+    });
+  })();
+})();
