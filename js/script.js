@@ -55,8 +55,8 @@ themeToggler.addEventListener("click", (e) => {
 // });
 (async function () {
   const data = await fetch("js/data.json");
+
   const { home } = await data.json();
-  console.log(home);
   // homeContent
   (async function () {
     const html = `<div class="col-12 col-lg-6 home">
