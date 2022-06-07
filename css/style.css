@@ -464,7 +464,6 @@ transition: all 300ms;
     left: 50%;
     transform: translate(-50%, -50%);
     width: fit-content;
-    background-color: #000000a1;
     border-radius: 20px;
   }
   .navbar .nav-list {
