@@ -109,8 +109,8 @@ header > div {
   text-align: center;
   /* padding: 0.5rem; */
   transition: all 300ms ease;
-  width: 4rem; 
-  height: 4rem; 
+  width: 4rem;
+  height: 4rem;
   line-height: 2.5;
 }
 /* .navbar .theme-list li {
@@ -405,6 +405,17 @@ main {
   100% {
     transform: translateX(-1px);
   }
+}
+.loader {
+  position: fixed;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  transition: all 3s;
+}
+.loader-hide {
+  visibility: hidden;
+  opacity: 0;
 }
 /*.pageProject .card-projects h3{
 position: absolute;

@@ -56,27 +56,74 @@ themeToggler.addEventListener("click", (e) => {
 (async function () {
   const data = await fetch("js/data.json");
 
-  const { home } = await data.json();
-  // homeContent
-  (async function () {
-    const html = `<div class="col-12 col-lg-6 home">
-   <p>${home.fistWord}</p>
-   <p><span class="name"></span>&nbsp;</p>
-   <p>${home.jobtitle}</p>
-   <p>
-    ${home.description}
-   </p>
-   <a href="pdf/mohamed-magdy-CV.pdf" class="btn-cv" download>
-     ${home.download} <i class="fa-solid fa-cloud-arrow-down"></i>
-   </a>
-  </div>`;
-    document
-      .querySelector(".pagehome .row")
-      .insertAdjacentHTML("afterbegin", html);
-    let typed = new Typed(".name", {
-      strings: ["Mohamed Magdy"],
-      typeSpeed: 30,
-      loop: false,
-    });
-  })();
+  const { home, expreience, education, myWork } = await data.json();
+  homeContent(home);
+  aboutMeContent(expreience, education);
+  myWorkContent(myWork);
+  document.querySelector(".loader").classList.add("loader-hide");
+  document.body.style.overflowY = "auto";
 })();
+
+// HomeContent
+function homeContent(home) {
+  const html = `<div class="col-12 col-lg-6 home">
+ <p>${home.fistWord}</p>
+ <p><span class="name"></span>&nbsp;</p>
+ <p>${home.jobtitle}</p>
+ <p>
+  ${home.description}
+ </p>
+ <a href="pdf/mohamed-magdy-CV.pdf" class="btn-cv" download>
+   ${home.download} <i class="fa-solid fa-cloud-arrow-down"></i>
+ </a>
+</div>`;
+  document
+    .querySelector(".pagehome .row")
+    .insertAdjacentHTML("afterbegin", html);
+  let typed = new Typed(".name", {
+    strings: ["Mohamed Magdy"],
+    typeSpeed: 30,
+    loop: false,
+  });
+}
+//aboutMeContent
+function aboutMeContent(expreience, education) {
+  const html = `  <div class="exper">
+  <h2>EXPERIENCE</h2>
+  <p>
+  ${expreience.job} <br />
+    <span>${expreience.date}</span>
+  </p>
+  </div>
+  <h2>EDUCATION</h2>
+  <p>
+  ${education.educ1} <br />
+  <span>${education.date1}</span>
+  </p>
+  <p>
+  ${education.educ2}
+  <br />
+  <span>${education.date2}</span>
+  </p>
+`;
+  document.querySelector(".edu").insertAdjacentHTML("afterbegin", html);
+}
+function myWorkContent(myWork) {
+  let html = "";
+  myWork.forEach(({ img, title, github, preview }) => {
+    // console.log(items);
+    html += `<div class="card-projects">
+      <img src=${img} alt="e-commerce_project" />
+      <div class="overlay">
+        <h3>${title}</h3>
+        <div class="icons">
+          <a href=${github} class="fas fa-link"></a>
+          <a href=${preview} class="fas fa-search"></a>
+        </div>
+      </div>
+    </div>`;
+  });
+  document
+    .querySelector(".card-container")
+    .insertAdjacentHTML("afterbegin", html);
+}

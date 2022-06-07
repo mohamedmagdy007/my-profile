@@ -1,11 +1,87 @@
 {
-    "home":{
-        "fistWord":"Hi,I'm",
-        "myname":"Mohamed Magdy",
-        "jobtitle":"Front End Developer",
-        "description":"I love to create beautiful and functional websites, Being able to build the designs I produce means I can bring your idea to life and make it usable in future.",
-         "download"  :"DOWNLOAD RESUME" 
+  "home": {
+    "fistWord": "Hi,I'm",
+    "myname": "Mohamed Magdy",
+    "jobtitle": "Front End Developer",
+    "description": "I love to create beautiful and functional websites, Being able to build the designs I produce means I can bring your idea to life and make it usable in future.",
+    "download": "DOWNLOAD RESUME"
+  },
+  "expreience": {
+    "job": "Front-end Developer at Sphinx Publishing Company",
+    "date": "January 2022 – present"
+  },
+  "education": {
+    "educ1": "Information Technology Institute (ITI) MEARN STACK",
+    "date1": "April 2021 – August 2021",
+    "educ2": "Alexandria University faculty of commerce (MIS) Department",
+    "date2": "September 2016 – August 2020"
+  },
+  "myWork": [
+    {
+      "img": "images/nike.png",
+      "title": "E-commerce",
+      "github": "#",
+      "preview": "#"
+    },
+    {
+      "img": "images/dashboard.png",
+      "title": "E-commerce",
+      "github": "#",
+      "preview": "#"
+    },
+    {
+      "img": "images/meal.png",
+      "title": "E-commerce",
+      "github": "#",
+      "preview": "#"
+    },
+    {
+      "img": "images/coffe.png",
+      "title": "E-commerce",
+      "github": "#",
+      "preview": "#"
+    },
+    {
+      "img": "images/construc.png",
+      "title": "E-commerce",
+      "github": "#",
+      "preview": "#"
+    },
+    {
+      "img": "images/memory-game.png",
+      "title": "E-commerce",
+      "github": "#",
+      "preview": "#"
+    },
+    {
+      "img": "images/ecommerce.png",
+      "title": "E-commerce",
+      "github": "#",
+      "preview": "#"
+    },
+    {
+      "img": "images/outdoor.PNG",
+      "title": "E-commerce",
+      "github": "#",
+      "preview": "#"
+    },
+    {
+      "img": "images/shoppin.png",
+      "title": "E-commerce",
+      "github": "#",
+      "preview": "#"
+    },
+    {
+      "img": "images/quiz.PNG",
+      "title": "E-commerce",
+      "github": "#",
+      "preview": "#"
+    },
+    {
+      "img": "images/job.PNG",
+      "title": "E-commerce",
+      "github": "#",
+      "preview": "#"
     }
-   
-
+  ]
 }
