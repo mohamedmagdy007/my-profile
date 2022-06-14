@@ -20,68 +20,74 @@
     {
       "img": "images/nike.png",
       "title": "E-commerce",
-      "github": "#",
-      "preview": "#"
+      "github": "https://github.com/mohamedmagdy007/quiz-app",
+      "preview": "https://nike-store-sand.vercel.app/"
+    },
+    {
+      "img": "images/pagintion.png",
+      "title": "Pagination",
+      "github": "https://github.com/mohamedmagdy007/Pagination-app",
+      "preview": "https://admin-dashboard-murex.vercel.app/"
     },
     {
       "img": "images/dashboard.png",
-      "title": "E-commerce",
-      "github": "#",
-      "preview": "#"
+      "title": "Dashboard",
+      "github": "https://github.com/mohamedmagdy007/responsive-dashboard",
+      "preview": "https://mohamedmagdy007.github.io/Pagination-app/"
     },
     {
       "img": "images/meal.png",
-      "title": "E-commerce",
-      "github": "#",
-      "preview": "#"
+      "title": "Restaurant Website",
+      "github": "https://github.com/mohamedmagdy007/restaurant07",
+      "preview": "https://restaurant07.vercel.app/"
     },
     {
       "img": "images/coffe.png",
-      "title": "E-commerce",
-      "github": "#",
-      "preview": "#"
+      "title": "Coffee Shop",
+      "github": "https://github.com/mohamedmagdy007/coffee-website",
+      "preview": "https://coffee-website-ten.vercel.app/"
     },
     {
       "img": "images/construc.png",
-      "title": "E-commerce",
-      "github": "#",
-      "preview": "#"
+      "title": "Landing Page",
+      "github": "https://github.com/mohamedmagdy007/Media-Query-Desgin",
+      "preview": "https://media-query-desgin.vercel.app/"
     },
     {
       "img": "images/memory-game.png",
-      "title": "E-commerce",
-      "github": "#",
-      "preview": "#"
+      "title": "Memory Game",
+      "github": "https://github.com/mohamedmagdy007/Memory-Game",
+      "preview": "https://memory-game-azure.vercel.app/"
     },
     {
       "img": "images/ecommerce.PNG",
       "title": "E-commerce",
-      "github": "#",
-      "preview": "#"
+      "github": "https://github.com/mohamedmagdy007/e-commerce",
+      "preview": "https://e-shop-furniture.herokuapp.com/"
     },
     {
       "img": "images/outdoor.PNG",
-      "title": "E-commerce",
-      "github": "#",
-      "preview": "#"
+      "title": "Landing Page",
+      "github": "https://github.com/mohamedmagdy007/project-sass",
+      "preview": "https://mohamedmagdy007.github.io/project-sass/"
     },
     {
       "img": "images/shoppin.png",
-      "title": "E-commerce",
-      "github": "#",
-      "preview": "#"
+      "title": "Landing Page",
+      "github": "https://github.com/mohamedmagdy007/bootstrap-Template",
+      "preview": "https://bootstrap-template-six.vercel.app/"
     },
     {
       "img": "images/quiz.PNG",
-      "title": "E-commerce",
-      "github": "#",
-      "preview": "#"
+      "title": "Quiz Website",
+      "github": "https://github.com/mohamedmagdy007/quiz-app",
+      "preview": "https://mohamedmagdy007.github.io/quiz-app/"
     },
     {
       "img": "images/job.PNG",
-      "title": "E-commerce",
-      "github": "#",
-      "preview": "#"
+      "title": "Find Job",
+      "github": "https://github.com/mohamedmagdy007/find-job",
+      "preview": "http://find-job-tau.vercel.app/"
     }
   ]
 }

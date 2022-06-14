@@ -105,6 +105,12 @@ function aboutMeContent(expreience, education) {
   <br />
   <span>${education.date2}</span>
   </p>
+  <h2>PERSONAL DATA</h2>
+  <div class="d-flex">
+  <p  class="me-2"><span class="fa-solid fa-location-dot"></span> Alexandria, Egypt </p>  
+  <p  class="ms-2"><span class="fa-brands fa-whatsapp"></span> 01280271887</p>
+  </div>
+  <p><span>Date of Birth:</span> 22/3/1998</p>
 `;
   document.querySelector(".edu").insertAdjacentHTML("afterbegin", html);
 }
@@ -117,7 +123,7 @@ function myWorkContent(myWork) {
       <div class="overlay">
         <h3>${title}</h3>
         <div class="icons">
-          <a href=${github} class="fas fa-link"></a>
+          <a href=${github} class="fa-brands fa-github"></a>
           <a href=${preview} class="fas fa-search"></a>
         </div>
       </div>

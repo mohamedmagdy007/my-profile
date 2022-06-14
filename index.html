@@ -15,6 +15,11 @@
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
   </head>
   <body>
     <div class="loader">
@@ -32,17 +37,22 @@
         <div class="col-4 col-sm-6">
           <ul class="header__icon">
             <li>
-              <a href="#" data-art="Github"
+              <a href="https://github.com/mohamedmagdy007" data-art="Github"
                 ><i class="fa-brands fa-github"></i
               ></a>
             </li>
             <li>
-              <a href="#" data-art="Linkedin">
+              <a
+                href="https://www.linkedin.com/in/mohamed-magdy-007/"
+                data-art="Linkedin"
+              >
                 <i class="fa-brands fa-linkedin-in"></i
               ></a>
             </li>
             <li>
-              <a href="#" data-art="Gmail"><i class="fa-solid fa-m"></i></a>
+              <a href="mailto:mohamed.magdy4980@gmail.com" data-art="Gmail"
+                ><i class="fa-solid fa-m"></i
+              ></a>
             </li>
           </ul>
         </div>
@@ -96,10 +106,6 @@
             <div class="row">
               <div class="col-12 col-lg-6 me-content">
                 <div class="edu"></div>
-
-                <a href="#" class="btn-cv">
-                  download Resume <i class="fa-solid fa-cloud-arrow-down"></i>
-                </a>
               </div>
               <div class="col-12 col-lg-6 mt-4 mt-lg-0">
                 <div class="icons">
@@ -203,17 +209,18 @@
             <div class="row align-items-center">
               <div class="col-12 col-lg-6">
                 <form>
-                  <input type="text" placeholder="Name" />
-                  <input type="text" placeholder="Email" />
-                  <input type="text" placeholder="SUBJECT" />
+                  <input type="text" placeholder="Name" class="username" />
+                  <input type="text" placeholder="Email" class="email" />
+
                   <textarea
+                    class="message"
                     name=""
                     id=""
                     cols="30"
                     rows="3"
                     placeholder="MESSAGE"
                   ></textarea>
-                  <button class="btn">Send</button>
+                  <input type="submit" class="btn submit" value="Send" />
                 </form>
               </div>
               <div class="col-12 col-lg-6">
@@ -234,6 +241,7 @@
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/form.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>
