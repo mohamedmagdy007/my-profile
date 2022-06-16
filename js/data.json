@@ -18,9 +18,15 @@
   },
   "myWork": [
     {
+      "img": "images/weatherApp.png",
+      "title": "Weahter App",
+      "github": "https://github.com/mohamedmagdy007/weatherApp",
+      "preview": "https://weather-app-navy-iota.vercel.app/"
+    },
+    {
       "img": "images/nike.png",
       "title": "E-commerce",
-      "github": "https://github.com/mohamedmagdy007/quiz-app",
+      "github": "https://github.com/mohamedmagdy007/nike-store",
       "preview": "https://nike-store-sand.vercel.app/"
     },
     {
