@@ -66,13 +66,11 @@ header > div {
 .home_icons li i {
   font-size: 2rem;
 }
-.header__icon li
- {
+.header__icon li {
   position: relative;
   transition: all 600ms ease;
 }
-.header__icon li:hover a::before
- {
+.header__icon li:hover a::before {
   content: attr(data-art);
   width: fit-content;
   height: fit-content;
@@ -431,42 +429,6 @@ main {
   visibility: hidden;
   opacity: 0;
 }
-/*.pageProject .card-projects h3{
-position: absolute;
-bottom: 0.5rem; left: 1rem;
-color: var(--fontColor2);
-margin-bottom: 0;
-}
-.pageProject .card-projects .icons {
-  display: flex;
-  flex-direction:column ;
-  position: absolute;
-  top: 3rem;right: 0.3rem;
-  padding: 0;
-  gap: 0;
-
-}
-.pageProject .card-projects .icons a{
- display: block;
- height: 3rem;
- width: 3rem;
- border-radius:.5rem ;
- text-align: center;
- line-height: 3rem;
- margin-bottom: 1rem;
- text-decoration: none;
- color: var(--fontColor2);
- background-color: var(--mainColor);
-transition: all 300ms;
-}
-.pageProject .card-projects .icons a:hover {
-  background-color: var(--mainColor);
-  color: var(--fontColor);
-}
-.pageProject .card-projects:hover img{
-  height: 82%;
-  width: 82%;
-} */
 @media screen and (max-width: 768px) {
   .navbar {
     display: flex;
@@ -488,5 +450,34 @@ transition: all 300ms;
 @media screen and (max-width: 480px) {
   .card-container {
     grid-template-columns: 1fr;
+  }
+  .home,
+  .me-content {
+    font-size: 1.4rem;
+  }
+  .pageMe h1,
+  .pageContact h1,
+  .pageProject h1 {
+    font-size: 3rem;
+  }
+
+  .home p:nth-of-type(2) {
+    font-size: 2rem;
+  }
+  .btn-cv {
+    padding: 1rem 0.6rem;
+  }
+  .navbar .nav-list li,
+  .navbar .theme-list li {
+    font-size: 1.4rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    line-height: 2.4;
+  }
+  .pageMe .icons {
+    font-size: 1rem;
+  }
+  .pageMe .icons i {
+    font-size: 2.5rem;
   }
 }
