@@ -18,6 +18,18 @@
   },
   "myWork": [
     {
+      "img": "images/foods.png",
+      "title": "Food Delivery",
+      "github": "https://github.com/mohamedmagdy007/delivery-app",
+      "preview": "https://food-delivery-psi-dusky.vercel.app/"
+    },
+    {
+      "img": "images/calculator.png",
+      "title": "calculator",
+      "github": "https://github.com/mohamedmagdy007/calc",
+      "preview": "https://calc-psi.vercel.app/"
+    },
+    {
       "img": "images/weatherApp.png",
       "title": "Weahter App",
       "github": "https://github.com/mohamedmagdy007/weatherApp",
