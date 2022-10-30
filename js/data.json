@@ -18,6 +18,12 @@
   },
   "myWork": [
     {
+      "img": "images/multimart.png",
+      "title": "Multimart",
+      "github": "https://github.com/mohamedmagdy007/Furniture-Ecommerce",
+      "preview": "https://ecommerce-alpha-lyart.vercel.app/"
+    },
+    {
       "img": "images/foods.png",
       "title": "Food Delivery",
       "github": "https://github.com/mohamedmagdy007/delivery-app",
