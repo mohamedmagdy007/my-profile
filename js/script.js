@@ -91,6 +91,10 @@ function aboutMeContent(expreience, education) {
   const html = `  <div class="exper">
   <h2>EXPERIENCE</h2>
   <p>
+  ${expreience.job1} <br />
+    <span>${expreience.date1}</span>
+  </p>
+  <p>
   ${expreience.job} <br />
     <span>${expreience.date}</span>
   </p>
