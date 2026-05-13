@@ -1,17 +1,51 @@
 {
   "home": {
-    "fistWord": "Hi,I'm",
+    "fistWord": "Hi, I'm",
     "myname": "Mohamed Magdy",
-    "jobtitle": "Front End Developer",
-    "description": "I love to create beautiful and functional websites, Being able to build the designs I produce means I can bring your idea to life and make it usable in future.",
+    "jobtitle": "Front-End Developer",
+    "description": "Front-End Developer with 4 years of experience specializing in React.js and Next.js, delivering scalable business applications across enterprise and e-commerce domains. Proven track record in performance optimization, component-based architecture, and seamless RESTful API integration.",
     "download": "DOWNLOAD RESUME"
   },
-  "expreience": {
-    "job1": "Front-end Developer at Flowtechties",
-    "date1": "11 / 2022 – Present",
-    "job": "Front-end Developer at Sphinx Publishing Company",
-    "date": "01 / 2022 – 11 / 2022"
-  },
+  "expreience": [
+    {
+      "title": "Front End Developer",
+      "company": "Sana-soft",
+      "period": "01/2024 – Present",
+      "type": "software house",
+      "tasks": [
+        "Architected scalable frontend structures for enterprise systems (Warehouse, HR, HSE, and Booking).",
+        "Built complex features like a dynamic Form Builder and a large-file upload system with chunking.",
+        "Adhering to best practices in component-based architecture.",
+        "Optimized app performance using lazy loading and memoization to improve rendering efficiency.",
+        "Developed a React Native mobile app for delivery management with Firebase push notifications.",
+        "Ensured code quality by implementing unit testing (Jest & RTL) and building clean API abstraction layers with React Query.",
+        "Tech stack: React, Next.js, React Native, TypeScript, Redux Toolkit, React Query, Jest, Firebase, Material UI, Tailwind CSS"
+      ]
+    },
+    {
+      "title": "Front End Developer",
+      "company": "Flowtechties",
+      "period": "11/2022 – 01/2024",
+      "type": "The Company's product based",
+      "tasks": [
+        "Krafttopia website E-commerce — Built from scratch in collaboration with Back-End team.",
+        "Optimizing pages for best performance.",
+        "Integrated RESTful APIs and third-party libraries to enhance functionality and deliver dynamic content.",
+        "Tech stack: JavaScript, Sass, React, Redux, Axios, Material UI, TypeScript, Restful API"
+      ]
+    },
+    {
+      "title": "Front End Developer",
+      "company": "Sphinx Publishing Company",
+      "period": "01/2022 – 11/2022",
+      "type": "",
+      "tasks": [
+        "Developed educational website kits with various interactive exercises.",
+        "Implemented UI components based on design guidelines.",
+        "Optimizing pages for best performance."
+      ]
+    }
+  ],
   "education": {
     "educ1": "Information Technology Institute (ITI) MEARN STACK",
     "date1": "April 2021 – August 2021",

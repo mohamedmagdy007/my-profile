@@ -1,11 +1,11 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <base target="_blank" rel="noopener noreferrer" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Profile</title>
+    <title>Mohamed Magdy | Frontend Developer</title>
 
     <link
       rel="stylesheet"
@@ -50,38 +50,42 @@
               ></a>
             </li>
             <li>
-              <a href="mailto:mohamed.magdy4980@gmail.com" data-art="Gmail"
+              <a href="mailto:mohamedmagdy.dev07@gmail.com" data-art="Gmail"
                 ><i class="fa-solid fa-m"></i
               ></a>
             </li>
           </ul>
         </div>
         <div class="col-8 col-sm-6 text-end">
-          <h2 class=""><i class="fa-solid fa-copyright"></i> Mohamed Magdy</h2>
+          <h2><i class="fa-solid fa-terminal"></i> Mohamed Magdy</h2>
         </div>
       </div>
     </header>
     <nav class="navbar">
       <ul class="theme-list p-0 m-0">
-        <li class="theme-toggler">
+        <li class="theme-toggler" data-label="Theme">
           <i class="fa-solid fa-sun"></i>
-          <!-- <i class="fa-solid fa-moon"></i> -->
         </li>
       </ul>
+      <div class="navbar-divider"></div>
       <ul class="nav-list p-0 m-0">
-        <li class="active" data-cont=".pagehome">
+        <li class="active" data-cont="home" data-label="Home">
           <i class="fa-solid fa-house-chimney"></i>
         </li>
-        <li data-cont=".pageMe"><i>me</i></li>
-        <li data-cont=".pageProject">
+        <li data-cont="about" data-label="About">
+          <i class="fa-solid fa-user"></i>
+        </li>
+        <li data-cont="work" data-label="Work">
           <i class="fa-solid fa-diagram-project"></i>
         </li>
-        <li data-cont=".pageContact"><i class="fa-solid fa-envelope"></i></li>
+        <li data-cont="contact" data-label="Contact">
+          <i class="fa-solid fa-envelope"></i>
+        </li>
       </ul>
     </nav>
     <main>
       <div class="container contents">
-        <div class="pagehome">
+        <div id="home" class="pagehome">
           <div class="row align-items-center">
             <div class="col-12 col-lg-6">
               <lottie-player
@@ -95,11 +99,14 @@
             </div>
           </div>
         </div>
-        <div class="pageMe">
+        <div id="about" class="pageMe">
           <div class="container">
             <div class="row">
-              <div class="col-12 mb-5">
-                <h1>About <span> Me</span></h1>
+              <div class="col-12 mb-4 text-center">
+                <span class="section-badge"
+                  ><i class="fa-solid fa-user"></i> Who I Am</span
+                >
+                <h1>About <span>Me</span></h1>
                 <div class="line-bar"></div>
               </div>
             </div>
@@ -109,82 +116,81 @@
               </div>
               <div class="col-12 col-lg-6 mt-4 mt-lg-0">
                 <div class="icons">
-                  <span
-                    class="d-flex flex-column align-items-center iconSkills"
-                  >
+                  <span class="iconSkills">
                     <i class="devicon-html5-plain colored"></i>
-                    <span>Html</span>
+                    <span>HTML</span>
                   </span>
-                  <span
-                    class="d-flex flex-column align-items-center iconSkills"
-                  >
+                  <span class="iconSkills">
                     <i class="devicon-css3-plain colored"></i>
-                    <span>Css</span>
+                    <span>CSS</span>
                   </span>
-                  <span
-                    class="d-flex flex-column align-items-center iconSkills"
-                  >
-                    <i class="devicon-javascript-plain colored"></i>
-                    <span>JavaScript</span>
-                  </span>
-                  <span
-                    class="d-flex flex-column align-items-center iconSkills"
-                  >
-                    <span>TypeScript</span>
-                  </span>
-                  <span
-                    class="d-flex flex-column align-items-center iconSkills"
-                  >
-                    <i class="devicon-react-original colored"></i>
-                    <span>ReactJs</span>
-                  </span>
-                  <span
-                    class="d-flex flex-column align-items-center iconSkills"
-                  >
-                    <i class="devicon-github-original"></i>
-                    <span>Github</span>
-                  </span>
-                  <span
-                    class="d-flex flex-column align-items-center iconSkills"
-                  >
-                    <i class="devicon-redux-original colored"></i>
-                    <span>Redux</span>
-                  </span>
-                  <span
-                    class="d-flex flex-column align-items-center iconSkills"
-                  >
-                    <i class="devicon-jquery-plain colored"></i>
-                    <span>Jquery</span>
-                  </span>
-                  <span
-                    class="d-flex flex-column align-items-center iconSkills"
-                  >
-                    <i class="devicon-bootstrap-plain colored"></i>
-                    <span>Bootstrap</span>
-                  </span>
-                  <span
-                    class="d-flex flex-column align-items-center iconSkills"
-                  >
-                    <i class="devicon-tailwindcss-plain colored"></i>
-                    <span>Tailwind-css</span>
-                  </span>
-                  <span
-                    class="d-flex flex-column align-items-center iconSkills"
-                  >
-                    
-                    <span>material ui</span>
-                  </span>
-                  <span
-                    class="d-flex flex-column align-items-center iconSkills"
-                  >
+                  <span class="iconSkills">
                     <i class="devicon-sass-original colored"></i>
                     <span>Sass</span>
                   </span>
-                  <span
-                    class="d-flex flex-column align-items-center iconSkills"
-                  >
-                  <i class="devicon-nextjs-original"></i>
+                  <span class="iconSkills">
+                    <i class="devicon-javascript-plain colored"></i>
+                    <span>JavaScript</span>
+                  </span>
+                  <span class="iconSkills">
+                    <i class="devicon-typescript-plain colored"></i>
+                    <span>TypeScript</span>
+                  </span>
+                  <span class="iconSkills">
+                    <i class="devicon-tailwindcss-plain colored"></i>
+                    <span>Tailwind-CSS</span>
+                  </span>
+                  <span class="iconSkills">
+                    <i class="devicon-materialui-plain colored"></i>
+                    <span>Material UI</span>
+                  </span>
+                  <span class="iconSkills">
+                    <i class="devicon-bootstrap-plain colored"></i>
+                    <span>React-Bootstrap</span>
+                  </span>
+                  <span class="iconSkills">
+                    <i class="devicon-jquery-plain colored"></i>
+                    <span>jQuery</span>
+                  </span>
+                  <span class="iconSkills">
+                    <i class="devicon-react-original colored"></i>
+                    <span>React</span>
+                  </span>
+                  <span class="iconSkills">
+                    <i class="devicon-nextjs-original"></i>
                     <span>Next.js</span>
+                  </span>
+                  <span class="iconSkills">
+                    <i class="fa-solid fa-wpforms"></i>
+                    <span>React-hook-form</span>
+                  </span>
+                  <span class="iconSkills">
+                    <i class="fa-solid fa-layer-group"></i>
+                    <span>Formik</span>
+                  </span>
+                  <span class="iconSkills">
+                    <i class="devicon-redux-original colored"></i>
+                    <span>Redux toolkit</span>
+                  </span>
+                  <span class="iconSkills">
+                    <i class="fa-solid fa-rotate"></i>
+                    <span>React-Query</span>
+                  </span>
+                  <span class="iconSkills">
+                    <i class="fa-solid fa-mobile-screen-button"></i>
+                    <span>React-native</span>
+                  </span>
+                  <span class="iconSkills">
+                    <i class="devicon-git-plain colored"></i>
+                    <span>Git</span>
+                  </span>
+                  <span class="iconSkills">
+                    <i class="fa-solid fa-sitemap"></i>
+                    <span>Frontend Architecture</span>
+                  </span>
+                  <span class="iconSkills">
+                    <i class="devicon-jest-plain colored"></i>
+                    <span>Unit Testing</span>
                   </span>
                 </div>
               </div>
@@ -203,10 +209,13 @@
             </div>
           </div>
         </div>
-        <div class="pageProject">
+        <div id="work" class="pageProject">
           <div class="container">
             <div class="row">
-              <div class="col-12 mb-5">
+              <div class="col-12 mb-4 text-center">
+                <span class="section-badge"
+                  ><i class="fa-solid fa-diagram-project"></i> Portfolio</span
+                >
                 <h1>My <span>Work</span></h1>
                 <div class="line-bar"></div>
               </div>
@@ -215,29 +224,45 @@
           </div>
         </div>
 
-        <div class="pageContact">
+        <div id="contact" class="pageContact">
           <div class="container">
             <div class="row">
-              <div class="col-12 mb-5">
-                <h1>Get <span>In</span> Touch...!</h1>
+              <div class="col-12 mb-4">
+                <span class="section-badge"
+                  ><i class="fa-solid fa-envelope"></i> Say Hello</span
+                >
+                <h1>Get <span>In</span> Touch</h1>
                 <div class="line-bar"></div>
               </div>
             </div>
             <div class="row align-items-center">
               <div class="col-12 col-lg-6">
                 <form>
-                  <input type="text" placeholder="Name" class="username" />
-                  <input type="text" placeholder="Email" class="email" />
-
+                  <input
+                    type="text"
+                    placeholder="Your Name"
+                    class="username"
+                    autocomplete="name"
+                  />
+                  <input
+                    type="email"
+                    placeholder="Your Email"
+                    class="email"
+                    autocomplete="email"
+                  />
                   <textarea
                     class="message"
-                    name=""
-                    id=""
+                    name="message"
+                    id="message"
                     cols="30"
-                    rows="3"
-                    placeholder="MESSAGE"
+                    rows="5"
+                    placeholder="Your Message"
                   ></textarea>
-                  <input type="submit" class="btn submit" value="Send" />
+                  <input
+                    type="submit"
+                    class="btn submit"
+                    value="Send Message"
+                  />
                 </form>
               </div>
               <div class="col-12 col-lg-6">
